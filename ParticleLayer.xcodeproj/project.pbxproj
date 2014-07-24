@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		924B116D19807E53004C1C1C /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 924B116C19807E53004C1C1C /* pink.png */; };
 		927AEE7519807321009114A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927AEE7419807321009114A5 /* AppDelegate.swift */; };
 		927AEE7719807321009114A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927AEE7619807321009114A5 /* ViewController.swift */; };
 		927AEE7A19807321009114A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927AEE7819807321009114A5 /* Main.storyboard */; };
 		927AEE7C19807321009114A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927AEE7B19807321009114A5 /* Images.xcassets */; };
 		927AEE8819807321009114A5 /* ParticleLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927AEE8719807321009114A5 /* ParticleLayerTests.swift */; };
+		927AEE9219807404009114A5 /* EmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927AEE9119807404009114A5 /* EmitterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		924B116C19807E53004C1C1C /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink.png; sourceTree = "<group>"; };
 		927AEE6F19807321009114A5 /* ParticleLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927AEE7319807321009114A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		927AEE7419807321009114A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		927AEE8119807321009114A5 /* ParticleLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		927AEE8619807321009114A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		927AEE8719807321009114A5 /* ParticleLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleLayerTests.swift; sourceTree = "<group>"; };
+		927AEE9119807404009114A5 /* EmitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmitterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				927AEE7419807321009114A5 /* AppDelegate.swift */,
 				927AEE7619807321009114A5 /* ViewController.swift */,
+				927AEE9119807404009114A5 /* EmitterView.swift */,
+				924B116C19807E53004C1C1C /* pink.png */,
 				927AEE7819807321009114A5 /* Main.storyboard */,
 				927AEE7B19807321009114A5 /* Images.xcassets */,
 				927AEE7219807321009114A5 /* Supporting Files */,
@@ -191,6 +197,7 @@
 			files = (
 				927AEE7A19807321009114A5 /* Main.storyboard in Resources */,
 				927AEE7C19807321009114A5 /* Images.xcassets in Resources */,
+				924B116D19807E53004C1C1C /* pink.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				927AEE7719807321009114A5 /* ViewController.swift in Sources */,
+				927AEE9219807404009114A5 /* EmitterView.swift in Sources */,
 				927AEE7519807321009114A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +405,7 @@
 				927AEE8D19807321009114A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		927AEE8E19807321009114A5 /* Build configuration list for PBXNativeTarget "ParticleLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +414,7 @@
 				927AEE9019807321009114A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
